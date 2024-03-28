@@ -16,6 +16,7 @@ const App = () => {
   };
   const calculate = () => {
     try {
+      
       setResult(eval(result).toString());
     } catch (err) {
       setResult("syntax error");
